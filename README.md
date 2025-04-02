@@ -5,4 +5,4 @@ It is built using MATLAB App Designer, allowing for a user-friendly graphical in
 Required Toolboxes:
 1. Computer Vision Toolbox
 2. Image Processing Toolbox
-It allows you to upload images containing a number plate and automatically detects the plate area. Some sample images are provided for reference.
+ It allows you to upload images containing a number plate and automatically detects the plate area. Some sample images are provided for reference.
