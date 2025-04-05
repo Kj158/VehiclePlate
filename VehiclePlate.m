@@ -122,6 +122,9 @@ disp(['Bounding Box: Xmin=', num2str(Xmin), ', Xmax=', num2str(Xmax), ', Ymin=',
 if Xmax > Xmin && Ymax > Ymin
     LP = b(Xmin:Xmax, Ymin:Ymax);
     figure, imshow(LP, []); title('Extracted License Plate');
+    results = ocr(LP);  
+text = results.Text;
+disp(text)
 end
 else
     disp('Error: Invalid bounding box dimensions. Cropping failed.');
